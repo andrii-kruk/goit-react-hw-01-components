@@ -14,5 +14,3 @@ export const TableHeaderCell = styled.th`
   font-weight: bold;
   text-align: left;
 `;
-
-export const TableBody = styled.tbody``;

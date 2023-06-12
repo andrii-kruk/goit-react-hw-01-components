@@ -4,7 +4,6 @@ import {
   TransactionTable,
   TableHeader,
   TableHeaderCell,
-  TableBody,
 } from './TransactionHistory.styled';
 import { Transaction } from './Transaction/Transaction';
 
