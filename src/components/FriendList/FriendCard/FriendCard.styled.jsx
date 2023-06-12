@@ -20,7 +20,7 @@ export const FriendListStatus = styled.span`
       case false:
         return 'red';
       default:
-        "transparent";
+       return "transparent";
     }
   }};
 `;
