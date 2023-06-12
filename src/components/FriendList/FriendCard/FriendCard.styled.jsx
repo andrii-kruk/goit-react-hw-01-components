@@ -16,9 +16,11 @@ export const FriendListStatus = styled.span`
   background-color: ${props => {
     switch (props.isOnline) {
       case true:
-        return "green";
+        return 'green';
       case false:
-        return "red";
+        return 'red';
+      default:
+        transparent;
     }
   }};
 `;
