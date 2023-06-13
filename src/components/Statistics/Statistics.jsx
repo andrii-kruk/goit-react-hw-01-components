@@ -6,7 +6,7 @@ import { StatisticsSection, Title, StatList } from './Statistics.styled';
 export const Statistics = ({ title, data }) => {
   return (
     <StatisticsSection>
-      {title.length !== 0 && <Title>{title}</Title>}
+      {title !== 0 && <Title>{title}</Title>}
       <StatList>
         {data.map(({ id, label, percentage }) => (
           <StatsList key={id} label={label} percentage={percentage} />
